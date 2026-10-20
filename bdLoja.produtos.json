@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6ac4d0d1afd5122b89cfdc20"
+  },
+  "nome": "Monitor",
+  "preco": 1000.5,
+  "categoria": "Tecnologia",
+  "criadoEm": "2026-10-06"
+},
+{
+  "_id": {
+    "$oid": "6ac4d0f5afd5122b89cfdc23"
+  },
+  "nome": "Teclado",
+  "preco": 80.9,
+  "categoria": "Tecnologia",
+  "criadoEm": "2026-10-06"
+},
+{
+  "_id": {
+    "$oid": "6ac4d51fd67dab91e0440ebe"
+  },
+  "nome": "mouse",
+  "preco": 30,
+  "categoria": "tecnologia",
+  "criadoEm": {
+    "$date": "2026-10-06T11:01:51.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ac4d5d3d67dab91e0440ebf"
+  },
+  "nome": "web cam",
+  "preco": 400,
+  "categoria": "tecnologia",
+  "criadoEm": {
+    "$date": "2026-10-06T11:04:51.413Z"
+  },
+  "__v": 0
+}]
