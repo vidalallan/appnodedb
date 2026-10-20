@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Express + EJS</title>    
+</head>
+<body>
+
+    <h1> Contato </h1>
+    
+    <form action="/enviarContato" method="POST">
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email"> E-mail: </label>
+        <input type="text" id="email" name="email" required>
+
+        <button type="submit"> Enviar </button>
+    </form>
+
+    <h2> Dados </h2>
+    <p> <%= nome %> </p>   
+
+</body>
+</html>
